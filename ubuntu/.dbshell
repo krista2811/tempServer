@@ -1,0 +1,30 @@
+use mongodb_tutorial
+db
+show dbs
+db.book.insert({"name": "MongoDB Tutorial", "author": "velopert"});
+show dbs
+use mongodb_tutorial
+db.dropDatabase();
+use test
+db.createCollection("books")
+db.createCollection("articles", { capped: true, autoIndex: true, size: 6142800, max: 10000 })
+db.people.insert({"name": "velopert"})
+show collections
+show dbs
+db.books.insert({"name": "NodeJS Guide", "author": "Veloport"})
+db.books.insert([ {"name": "Book1", "author": "Veloport"}, {"name": "Book2", "author": "Velopert"} ]};
+db.books.insert([ {"name": "Book1", "author": "Veloport"}, {"name": "Book2", "author": "Velopert"} ]);
+db.books.find();
+quit
+db.collections(0 sdfq );
+db.collections();
+db.collections.find();
+show db
+show collections
+show dbs
+use mongodb_tutorial
+show mongodb_tutorial
+show.connections
+show.connetion
+show collections
+quit
